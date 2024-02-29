@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
         FadeInRight(
           duration: const Duration(milliseconds: 1400),
           child: Text(
-            'Mukhtar Ali Khan',
+            'Jaya Nandhanan V',
             style: AppTextStyles.headingStyles(),
           ),
         ),
@@ -91,14 +91,14 @@ class _HomePageState extends State<HomePage> {
               AnimatedTextKit(
                 animatedTexts: [
                   TyperAnimatedText(
-                    'Flutter Developer',
+                    'App Developer',
                     textStyle:
                         AppTextStyles.montserratStyle(color: Colors.lightBlue),
                   ),
-                  TyperAnimatedText('Freelancer',
+                  TyperAnimatedText('Full Stack Developer',
                       textStyle: AppTextStyles.montserratStyle(
                           color: Colors.lightBlue)),
-                  TyperAnimatedText('YouTuber',
+                  TyperAnimatedText('Freelancer',
                       textStyle: AppTextStyles.montserratStyle(
                           color: Colors.lightBlue))
                 ],
@@ -114,9 +114,8 @@ class _HomePageState extends State<HomePage> {
           duration: const Duration(milliseconds: 1600),
           child: Expanded(
             child: Text(
-              'In publishing and graphic design, Lorem ipsum is a placeholder '
-              'text commonly used to demonstrate the visual form of a document'
-              ' or a typeface without relying on meaningful content.',
+              'I\'m very glad to let y\'all know about myself,my strengths'
+              'and my projects that I\'ve completed in my portfolio.',
               style: AppTextStyles.normalStyle(),
             ),
           ),
