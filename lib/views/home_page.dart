@@ -114,8 +114,9 @@ class _HomePageState extends State<HomePage> {
           duration: const Duration(milliseconds: 1600),
           child: Expanded(
             child: Text(
-              'I\'m very glad to let y\'all know about myself,my strengths'
-              'and my projects that I\'ve completed in my portfolio.',
+              ' I\'m very glad to let y\'all know about'
+              ' myself,my strengths'
+              ' and my projects that I\'ve completed in my portfolio.',
               style: AppTextStyles.normalStyle(),
             ),
           ),
