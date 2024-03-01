@@ -1,7 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/globals/app_assets.dart';
-import 'package:my_portfolio/globals/app_buttons.dart';
 import 'package:my_portfolio/globals/app_colors.dart';
 import 'package:my_portfolio/globals/constants.dart';
 import 'package:my_portfolio/helper%20class/helper_class.dart';
@@ -39,7 +38,7 @@ class _MyServicesState extends State<MyServices> {
               });
             },
             child: buildAnimatedContainer(
-              title: 'App Development',
+              title: 'App Development & Web Development',
               asset: AppAssets.code,
               hover: isApp,
             ),
@@ -67,7 +66,7 @@ class _MyServicesState extends State<MyServices> {
               });
             },
             child: buildAnimatedContainer(
-              title: 'Digital Marketing',
+              title: 'Data Analytics',
               asset: AppAssets.analyst,
               hover: isDataAnalyst,
             ),
@@ -90,7 +89,7 @@ class _MyServicesState extends State<MyServices> {
                   });
                 },
                 child: buildAnimatedContainer(
-                  title: 'App Development',
+                  title: 'App Development & Web Development',
                   asset: AppAssets.code,
                   hover: isApp,
                 ),
@@ -120,7 +119,7 @@ class _MyServicesState extends State<MyServices> {
               });
             },
             child: buildAnimatedContainer(
-              title: 'Digital Marketing',
+              title: 'Data Analytics',
               asset: AppAssets.analyst,
               hover: isDataAnalyst,
               width: 725.0,
@@ -145,7 +144,7 @@ class _MyServicesState extends State<MyServices> {
                   });
                 },
                 child: buildAnimatedContainer(
-                  title: 'App Development',
+                  title: 'App Development & Web Development',
                   asset: AppAssets.code,
                   hover: isApp,
                 ),
@@ -173,7 +172,7 @@ class _MyServicesState extends State<MyServices> {
                   });
                 },
                 child: buildAnimatedContainer(
-                  title: 'Digital Marketing',
+                  title: 'Data Analytics',
                   asset: AppAssets.analyst,
                   hover: isDataAnalyst,
                 ),
@@ -248,15 +247,7 @@ class _MyServicesState extends State<MyServices> {
             style: AppTextStyles.montserratStyle(
                 color: Colors.white, fontSize: 22.0),
           ),
-          Constants.sizedBox(height: 12.0),
-          Text(
-            'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-            ' The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,',
-            style: AppTextStyles.normalStyle(fontSize: 14.0),
-            textAlign: TextAlign.center,
-          ),
-          Constants.sizedBox(height: 20.0),
-          AppButtons.buildMaterialButton(buttonName: 'Read More', onTap: () {})
+          
         ],
       ),
     );
