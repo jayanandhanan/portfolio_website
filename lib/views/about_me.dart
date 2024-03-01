@@ -4,7 +4,6 @@ import 'package:my_portfolio/globals/app_assets.dart';
 import 'package:my_portfolio/globals/app_colors.dart';
 import 'package:my_portfolio/globals/constants.dart';
 import 'package:my_portfolio/helper%20class/helper_class.dart';
-import '../globals/app_buttons.dart';
 import '../globals/app_text_styles.dart';
 
 class AboutMe extends StatelessWidget {
@@ -74,34 +73,21 @@ class AboutMe extends StatelessWidget {
             ),
           ),
         ),
-        Constants.sizedBox(height: 6.0),
-        FadeInLeft(
-          duration: const Duration(milliseconds: 1400),
-          child: Text(
-            'Flutter Developer!',
-            style: AppTextStyles.montserratStyle(color: Colors.white),
-          ),
-        ),
         Constants.sizedBox(height: 8.0),
         FadeInLeft(
           duration: const Duration(milliseconds: 1600),
           child: Text(
-            'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-            ' The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,'
-            ' as opposed to using \'Content here, content here\', making it look like readable English.'
-            ' Many desktop publishing packages and web page editors now use Lorem Ipsum as their default'
-            ' model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy.'
-            ' Various versions have evolved over the years, sometimes by accident, sometimes on purpose'
-            ' (injected humour and the like).',
+            'Hardworking and passionate Computer Science'
+            ' and Engineering'
+            ' student, seeking employment'
+            ' opportunities to explore myself and'
+            ' learn new technologies.'
+            ' Highly organized and collaborative in'
+            ' nature, can complete any given tasks efficiently on time.',
             style: AppTextStyles.normalStyle(),
           ),
         ),
-        Constants.sizedBox(height: 15.0),
-        FadeInUp(
-          duration: const Duration(milliseconds: 1800),
-          child: AppButtons.buildMaterialButton(
-              onTap: () {}, buttonName: 'Read More'),
-        )
+        
       ],
     );
   }
