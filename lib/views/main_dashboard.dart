@@ -54,7 +54,6 @@ class _MainDashBoardState extends State<MainDashBoard> {
     });
   }
 
-  final yourScrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
@@ -142,21 +141,14 @@ class _MainDashBoardState extends State<MainDashBoard> {
           },
         ),
       ),
-      body: Scrollbar(
-        trackVisibility: true,
-        thumbVisibility: true,
-        thickness: 8,
-        interactive: true,
-        controller: yourScrollController,
-        child: ScrollablePositionedList.builder(
-          itemCount: screensList.length,
-          itemScrollController: _itemScrollController,
-          itemPositionsListener: itemPositionsListener,
-          scrollOffsetListener: scrollOffsetListener,
-          itemBuilder: (context, index) {
-            return screensList[index];
-          },
-        ),
+      body: ScrollablePositionedList.builder(
+        itemCount: screensList.length,
+        itemScrollController: _itemScrollController,
+        itemPositionsListener: itemPositionsListener,
+        scrollOffsetListener: scrollOffsetListener,
+        itemBuilder: (context, index) {
+          return screensList[index];
+        },
       ),
     );
   }
